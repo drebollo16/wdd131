@@ -1,4 +1,6 @@
 
+/*********LARGE VIEW*****************/
+
 body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -13,7 +15,7 @@ header {
     text-align: center;
 }
 
-h1{
+h1 {
     margin: 0 auto;
 }
 
@@ -28,10 +30,7 @@ main {
     gap: 20px;  
 }
 
-
-
 /***NAVIGATION ***/
-
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -52,6 +51,34 @@ nav a:hover {
     text-decoration: underline;
 }
 
+ 
+/*********VIEWER CSS******************/
+.viewer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+    display: grid;
+    place-items: center;
+}
+
+.viewer img {
+    max-height: 90%;
+    max-width: 90%;
+}
+
+.close-viewer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: rgb(245, 241, 241);
+    font-size: 2rem;
+}
+
 /********FOOTER**/
 footer {
     background-color: #333;  
@@ -60,20 +87,16 @@ footer {
     text-align: center;
 }
 
-
-figure{
-    box-shadow:#333 1px 1px 1px 1px;
+figure {
+    box-shadow: #333 1px 1px 1px 1px;
 }
  
 img {
     max-width: 100%; 
-    height: 100%; 
-  
+    max-height: 100%; 
 }
 
-
-
- /* Medium */
+/* Medium */
 @media (max-width: 780px) {
     /*****GRID FIGURE SECTION*************/
     .coolpics {
@@ -94,21 +117,21 @@ img {
         gap: 5px;  
     }
 
-    header{
+    header {
         align-items: center;
     }
 
-    nav ul{
-        display: grid;
-        margin: 0;
-        align-content: center;
-        justify-content: center;
-        justify-items: stretch;
-    }
+   
     
     li a {
-        
         width: 60px;
         align-items: center;
-     }
+    }
+    
+    
+    /******NAVAGATION FOR TOGGLE MENU********************/
+.menu {
+    display:none;
+}
+    
 }
