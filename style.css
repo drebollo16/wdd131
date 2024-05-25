@@ -1,36 +1,53 @@
-body{
-    
-    background-color: rgb(202, 202, 196);
-    height: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body {
+  font-size: 16px;
+  margin: 0;
+  padding:20px;
+  box-sizing: border-box;
+  width: 60%;
+  margin: 0 auto;
+  color: #181616;
 }
-h1{
-    font-family: 'Courier New', Courier, monospace;
-    size: 15px;
-    position:relative;
 
+
+#content {
+  width: fit-content;
+  margin: 0 auto;
+  background-color: #ece8e4;
+  padding: .5em;
+  box-shadow: 0 0 30px #333;
+  border-radius: 10px;
+  margin: 0 auto;
 }
+
+h1 { 
+  color: #964130;
+  text-align: center;
+  padding: 10px;
+  font-family:cursive;
+}
+
+h3 {
+  margin-left: 15px;
+  color: #4213ad;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #e9bfbf6c;
+    padding:15px;
+    border-radius: 50px;
   }
   
-  li {
-    float: left;
+  li, li a{
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    padding-left: 30px;
   }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
+   
   li a:hover {
-    background-color: #111;
+    background-color: #25bad4;
   }
