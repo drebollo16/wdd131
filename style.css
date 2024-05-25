@@ -30,6 +30,7 @@ ul {
     background-color: #e9bfbf6c;
     padding:15px;
     border-radius: 50px;
+    box-shadow: 5px 5px 10px rgb(99, 98, 98);
   }
   
   li, li a{
