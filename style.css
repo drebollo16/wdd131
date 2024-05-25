@@ -8,8 +8,6 @@ body {
   color: #181616;
 }
 
- 
-
 h1, h2 { 
   color: #0f96ad;
   text-align: center;
@@ -43,6 +41,7 @@ ul {
   li a:hover {
     background-color: #25bad4;
   }
+  
   footer{
     text-align: center;
     font-size: 20px;
