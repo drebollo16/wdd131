@@ -29,7 +29,7 @@ const articles = [
     title: "Belgariad Book One: Pawn of Prophecy",
     date: "Feb 12, 2022",
     description:
-    "A fierce dispute among the Gods and the theft of a powerful Orb leaves the World divided into five kingdoms. Young Garion, with his "Aunt Pol" and an elderly man calling himself Wolf --a father and daughter granted near-immortality by one of the Gods -- set out on a complex mission.",
+    "A fierce dispute among the Gods and the theft of a powerful Orb leaves the World divided into five kingdoms. Young Garion, with his Aunt Pol and an elderly man calling himself Wolf --a father and daughter granted near-immortality by one of the Gods -- set out on a complex mission.",
     imgSrc:
     "https://images-na.ssl-images-amazon.com/images/I/41ZxXA+nInL.jpg",
     imgAlt: "Book cover for Pawn of Prophecy",
@@ -45,7 +45,7 @@ const articles = [
     //ADDING Article section for JS 
 
     document.addEventListener('DOMContentLoaded', () => {
-        const articlesContainer = document.querySelector('.content');
+        const articlesGrid = document.querySelector('.content');
     
         articles.forEach(article => {
             const articleElement = document.createElement('article');
@@ -66,6 +66,6 @@ const articles = [
             `;
             
             articleElement.innerHTML = articleContent;
-            articlesContainer.appendChild(articleElement);
+            articlesGrid.appendChild(articleElement);
         });
     });
