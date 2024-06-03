@@ -53,7 +53,7 @@ const articles = [
             
             const articleContent = 
             ` 
-                <div class="ratings">
+                <div class="article-info">
                     <li>Date: ${article.date}</li>
                     <li>Genre: ${article.genre}</li>
                     <li>Ages: ${article.ages}</li>
