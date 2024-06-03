@@ -64,26 +64,29 @@ main {
     padding: 20px;
 }
 
-.article-date {
-    font-size: 1.2em;
+.dates {
+    font-size: 16px;
 }
 
-.details-list {
+.list {
     text-align: right;
     line-height: 1.4;
+    margin: 0; /* Added margin reset */
+    padding: 0; /* Added padding reset */
+    list-style: none; /* Ensure no bullets */
 }
 
-.details-container {
+.description {
     border-right: 1px solid #EFC69B;
     padding-right: 15px;
     margin-right: 15px;
 }
 
-.article-title {
+.articletitle {
     margin-top: 0;
 }
 
-.book-cover {
+.bookImg {
     display: block;
     margin: 0 auto;
 }
@@ -94,6 +97,7 @@ main {
 
 .content {
     display: grid;
+    gap: 20px;
     grid-template-columns: 1fr;
     width: 100%;
 }
@@ -105,6 +109,11 @@ main {
     width: 90%;
     border-right: 1px solid #EFC69B;
 }
+
+ 
+
+ 
+
 
 .filters {
     border: 1px solid #EFC69B;

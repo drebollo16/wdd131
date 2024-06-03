@@ -51,18 +51,22 @@ const articles = [
             const articleElement = document.createElement('article');
             articleElement.classList.add('book');
             
-            const articleContent = `
-                <div class="details-container">
-                    <ul class="details-list">
-                        <li class="article-date">${article.date}</li>
-                        <li>Genre: ${article.genre}</li>
-                        <li>Ages: ${article.ages}</li>
-                        <li>Rating: ${article.stars}</li>
-                    </ul>
+            const articleContent = 
+            `<article class="book">
+                <div class="ratings">
+                    <li>Date: ${article.date}</li>
+                    <li>Genre: ${article.genre}</li>
+                    <li>Ages: ${article.ages}</li>
+                    <li>Rating: ${article.stars}</li>
                 </div>
-                <h2 class="article-title">${article.title}</h2>
-                <img class="book-cover" src="${article.imgSrc}" alt="${article.imgAlt}">
-                <p>${article.description}</p>
+            </div>
+                <div class="description"> 
+                    <div class="description">
+                        <h2>${article.title}</h2>
+                    <img class="book-cover" src="${article.imgSrc}" alt="${article.imgAlt}">
+                    <p>${article.description}</p>
+                    </div>
+            </article>
             `;
             
             articleElement.innerHTML = articleContent;
