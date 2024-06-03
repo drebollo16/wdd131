@@ -70,9 +70,9 @@ main {
 .list {
     text-align: right;
     line-height: 1.4;
-    margin: 0; /* Added margin reset */
-    padding: 0; /* Added padding reset */
-    list-style: none; /* Ensure no bullets */
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
 }
 
 .description { 
