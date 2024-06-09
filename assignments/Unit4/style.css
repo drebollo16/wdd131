@@ -4,42 +4,54 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-  }
+    
+}
 
-  .creditform {
-    position: relative;
+.creditform {
     width: 400px;
-    height: 250px;
+    padding: 25px;
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(24, 23, 23, 0.1);
-  }
+}
 
-  .cardiv {
-    padding: 20px;
+.cardiv {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-  }
+    gap: 20px;
+}
 
-  input[type="text"],
-  input[type="number"],
-  input[type="date"] {
+input[type="text"],
+input[type="number"],
+input[type="date"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
-  }
+}
 
-  input[type="submit"] {
+input[type="submit"] {
     padding: 10px;
     border: none;
     border-radius: 3px;
     background-color: #007bff;
     color: #fff;
     cursor: pointer;
-  }
+}
 
-  input[type="submit"]:hover {
+input[type="submit"]:hover {
     background-color: #0056b3;
-  }
+}
+
+.cardbtn {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cardbtn:hover {
+    background-color: #0056b3;
+}
