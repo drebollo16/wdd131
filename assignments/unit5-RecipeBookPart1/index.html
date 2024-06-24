@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Page Title">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Page Description">
+    <meta property="og:image" content="URL to an image">
+    <meta property="og:url" content="URL of the page">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="recipes.css">
     <title>Denise Rebollo Recipes Book Part 1</title>
 </head>
 <body>
+<header> 
+    <img class="imgHeader" src="img/recipe-book.png" alt="Recipe Book Logo">
     <h1> RecipeBook</h1>
+</header>
+<form action="#" method="get">
+    <input type="text" name="search" placeholder="Search for a recipe...">
+    <button type="submit">Search</button>
+</form>
+<hr>
+<main>
+ 
+    <section class="recipe">
+        <h2>Recipe Title</h2>
+        <img src="img/apple-crisp.jpg" alt="Recipe image">
+        <div class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star-empty">☆</span>
+        </div>
+        <p class="description">This is a short description of the recipe.</p>
+    </section>
+</main>
+
+
 </body>
+<footer>
+    <p>
+        <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>
+    </p>
+    <div class="social">
+        <a href="#"><img src="img/instagram_icon.svg" alt="Instagram icon"></a>
+        <a href="#"><img src="img/youtube_icon.svg" alt="YouTube icon"></a>
+        <a href="#"><img src="img/pinterest_icon.svg" alt="Pinterest icon"></a>
+    </div>
+</footer>
 </html>

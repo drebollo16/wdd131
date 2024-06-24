@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+:root {
+    --primary-color: #1B98E0;
+    --secondary-color: #59c3c3;
+    --text-dark: #333;
+    --text-light: #ebebeb;
+    --primary-font: Arial, Helvetica, sans-serif;
+    --secondary-font: 'Amatic SC';
+}
+
+body {
+    font-family: var(--primary-font);
+    margin: 0;
+    padding: 0; ;
+}
+
+ 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--secondary-font);
+    padding: 10px;
+ 
+}
+
+img {
+    max-width: 100%;
+}
+
+header img {
+    height: 50px;
+    align-items:flex-end;
+}
+
+footer {
+    
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+
+    gap: 10px;
+}
+
+.social img {
+    width: 24px;
+    height: 24px;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 10px; 
+}
+
+form input {
+    padding: 5px;
+    margin-right: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+form button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.recipe {
+    padding: 10px;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.rating {
+    font-size: 1.5em;
+}
+
+.description {
+    display: none;
+}
+ 
+
+@media (min-width: 600px) {
+    .description {
+        display: block;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .recipe {
+        flex: auto;
+        margin: 10px;
+        border: 1.5px solid black;
+    }
+
+    header, footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--secondary-font);
+        padding: 10px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    header img{
+        width:60px;
+        height: 90px;
+    }
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .recipe {
+        flex: auto;
+        margin: 10px;
+    }
+}
+
+@media (min-width: 960px) {
+    main {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--secondary-font);
+        padding: 10px;
+     
+    }
+    header img{
+        width:100px;
+        height: 120px;
+    }
+    h1{
+        font-size: 80px;
+    }
+
+    footer{
+        font-size:20px;
+    }
+    .recipe {
+        flex: auto;
+        align-items: center;
+        
+    }
+}
+
