@@ -24,7 +24,11 @@ header {
     padding: 10px;
  
 }
-
+h2{
+    font-size: 25px;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
 img {
     max-width: 100%;
 }
@@ -117,6 +121,11 @@ form button {
     h1{
         font-size: 60px;
     }
+    h2{
+        font-size: 40px;
+        font-family: var(--secondary-font);
+        color: var(--primary-color);
+    }
     header img{
         width:60px;
         height: 90px;
@@ -151,6 +160,11 @@ form button {
     }
     h1{
         font-size: 80px;
+    }
+    h2{
+        font-size: 40px;
+        font-family: var(--secondary-font);
+        color: var(--primary-color);
     }
 
     footer{
