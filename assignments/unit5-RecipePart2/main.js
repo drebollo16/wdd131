@@ -1,11 +1,5 @@
 import recipes from './recipes.mjs';
 
-/*
-const randomNumber = array => 
-    array[Math.floor(Math.random() * array.length)];
-*/
-
-
 
 function random(num) {
 	return Math.floor(Math.random() * num);
@@ -20,25 +14,6 @@ function getRandomListEntry(list) {
 // to test
 console.log(getRandomListEntry(recipes));
 //console.log(recipeTemplate(recipe));
-
-
-/*
-function recipeTemplate(recipe) {
-    return `
-    <section class="recipe">
-        <div class="imgRecipes">
-            <img src="${recipe.image}" alt="Recipe image">
-        </div>
-        <div>
-            <h2>${recipe.name}</h2>
-            ${ratingTemplate(recipe.rating)}
-            <div class="tags">${tagsTemplate(recipe.tags)}</div>
-            <p class="description">${recipe.description}</p>
-        </div>
-    </section>
-    `;
-}
-*/
 
 
 //Create a function called recipeTemplate that will take a recipe as a parameter,
