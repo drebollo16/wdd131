@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
   font-size: 16px;
   margin: 0;
@@ -5,14 +7,17 @@ body {
   box-sizing: border-box;
   width: 60%;
   margin: 0 auto;
-  color: #181616;
+  color:cadetblue;
+  font-family:'Noto Serif Display';
+
 }
 
 h1, h2 { 
-  color: #0f96ad;
+  color: #2d90a8;
   text-align: center;
   padding: 10px;
-  font-family:cursive;
+  font-size: 40px;
+  font-family:'Noto Serif Display';
 }
 
 h3 {
@@ -25,7 +30,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #e9bfbf6c;
+    background-color: #d6cdcd6c;
     padding:15px;
     border-radius: 50px;
     box-shadow: 5px 5px 10px rgb(99, 98, 98);
@@ -39,7 +44,8 @@ ul {
   }
   
   li a:hover {
-    background-color: #25bad4;
+    background-color: #63bbca;
+    border-radius: 15px;
   }
   
   footer{
