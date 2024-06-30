@@ -111,13 +111,13 @@ function searchHandler(e) {
 	// get the search input
 
 //    const query = document.querySelector('.search').value.toLowerCase();
+  // convert the value in the input to lowercase
     const query = document.querySelector('input[name="search"]').value.toLowerCase();
 
-    const filteredRecipes = filter(query);
-    renderRecipes(filteredRecipes);
-  // convert the value in the input to lowercase
   // use the filter function to filter our recipes
-  // render the filtered list
+    const filteredRecipes = filter(query);
+      // render the filtered list
+    renderRecipes(filteredRecipes);
 }
 
 document.querySelector('.image-button').addEventListener('click', searchHandler);
