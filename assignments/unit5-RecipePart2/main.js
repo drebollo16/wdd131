@@ -102,9 +102,8 @@ function filter(query) {
 		return sorted
 
 }
-
-const query = 'search term'; // replace with actual search term
-console.log(filter(query));
+ 
+//console.log(filter(query));
 
 function searchHandler(e) {
 	e.preventDefault()
