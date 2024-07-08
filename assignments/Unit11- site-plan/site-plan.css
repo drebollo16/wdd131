@@ -47,7 +47,6 @@ img {
 }
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -56,6 +55,10 @@ h6 {
 }
 h2 {
   text-align: center;
+}
+h3{
+  color: #3D405B;
+
 }
 hr {
   height: 3px;
@@ -125,10 +128,12 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  color: #3D405B;
 }
 nav a:link,
 nav a:visited {
-  color: var(--nav-link-color);
+ color: #3D405B;
+  
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
