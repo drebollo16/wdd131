@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --primary-color: #E07A5F;
+    --secondary-color: #81B29A;
+    --accent1-color: #3D405B;
+    --accent2-color: #F2CC8F;
+    --heading-font: "Roboto Mono";
+    --paragraph-font: 'Cormorant Garamond';
+}
+
+ 
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 18px;
+    font-family: var(--paragraph-font);
+ 
+}
+
+header {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: var(--heading-font);
+    margin: 0;
+}
+
+header img {
+    display: block;
+    margin: 10px auto;
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); 
+    border: 5px solid var(--accent2-color); 
+    transform: rotate(10deg); 
+    transition: transform 0.3s ease; 
+}
+
+header img:hover {
+    transform: rotate(0deg) scale(1.1); 
+    filter: brightness(1.2); 
+}
+
+nav {
+    background-color: var(--primary-color);
+    overflow: hidden;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: var(--accent1-color);
+}
+
+main {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    color: var(--primary-color);
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
