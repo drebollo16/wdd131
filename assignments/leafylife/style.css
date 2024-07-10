@@ -18,8 +18,9 @@ body {
     padding: 10px;
     font-size: 18px;
     font-family: var(--paragraph-font);
- 
 }
+
+ 
 
 header {
     background-color: var(--secondary-color);
@@ -71,12 +72,32 @@ main {
     padding: 20px;
     background-color: white;
     border-radius: 8px;
+    align-items: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 main h2 {
     color: var(--primary-color);
 }
+
+.homeImg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.homeImg img {
+    width: 100%;
+    height: auto; 
+    border-radius: 10px;
+    padding:10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
 
 footer {
     background-color: var(--secondary-color);
