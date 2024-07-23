@@ -2,6 +2,13 @@
 //https://blog.logrocket.com/localstorage-javascript-complete-guide/ 
 //Used as reference on how to get local storage
 
+//menu toggle small screen 
+document.getElementById('menuToggle').addEventListener('click', function() {
+    const menu = document.getElementById('menu');
+    console.log('Menu toggle clicked'); // Debug log
+    menu.classList.toggle('open');
+});
+
 
 document.getElementById('gardenerForm').addEventListener('submit', function(event) {
     //sending the form data to a server and reloading the page).
@@ -50,3 +57,5 @@ function displayProfile() {
 
 // Load profile when the page loads
 window.addEventListener('load', displayProfile);
+
+

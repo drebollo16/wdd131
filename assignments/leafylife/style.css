@@ -153,3 +153,42 @@ button:hover {
     max-width: 350px; 
     margin-right: 10px;
 }
+
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: var(--accent1-color);    
+    align-items: center;
+}
+
+
+/* Responsive styles */
+@media (max-width: 600px) {
+
+    nav .menu {
+        display: none;  
+        flex-direction: column;
+        width: 100%;  
+    }
+    
+    nav .menu.open {
+        display: flex;  
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav .menu a {
+        padding: 10px;
+        border-top: 1px solid #575757;
+    }
+
+    nav .menu-toggle {
+        display:contents;
+        font-size: 28px;
+
+    }   
+}
